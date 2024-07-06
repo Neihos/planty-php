@@ -1,0 +1,46 @@
+#plantyHeader {
+  display: flex;
+  max-width: 1440px;
+  margin: 0 auto;
+  height: 80px;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #ffffff;
+}
+
+#logoPlanty {
+  display: flex;
+  width: 201px;
+  height: 19px;
+  margin-left: 37px;
+}
+
+.navBar {
+  display: flex;
+  align-items: center;
+}
+
+.navBar ul {
+  display: flex;
+  list-style-type: none;
+  text-decoration: none;
+}
+
+.navBar li {
+    margin-right: 60px;
+}
+
+.navBar button {
+  width: 236px;
+  height: 80px;
+  color: #ffffff;
+  border: none;
+  font-family: "Syne";
+  font-weight: 700;
+  background-color: #dc9f96;
+  border-radius: 0%;
+}
+
+.navBar button:hover {
+  background-color: #c02e44;
+}
