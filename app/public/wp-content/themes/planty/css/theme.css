@@ -27,9 +27,11 @@ html body {
   margin-left: 37px;
 }
 
-.navBar {
-  display: flex;
-  align-items: center;
+.menu-item {
+  width: 236px;
+  height: 80px;
+  text-align: center;
+  align-content: center;
 }
 
 .navBar ul {
@@ -38,23 +40,27 @@ html body {
   text-decoration: none;
 }
 
-.navBar li {
-    margin-right: 60px;
-}
-
-.navBar button {
+.menu-item-78 {
   width: 236px;
   height: 80px;
-  color: #ffffff;
-  border: none;
   font-family: "Syne";
   font-weight: 700;
   background-color: #dc9f96;
   border-radius: 0%;
 }
 
-.navBar button:hover {
+.menu-item-78:hover {
   background-color: #c02e44;
+}
+
+.menu-item-78 a:hover {
+  color: #ffffff;
+}
+
+.menu-item-78 a {
+  color: #ffffff;
+  font-family: "Syne";
+  font-weight: 700;
 }
 
 /* footer */
@@ -71,8 +77,8 @@ html body {
 /* page accueil */
 
 #canette {
-    position: absolute;
-    margin: auto;
+  position: absolute;
+  margin: auto;
 }
 
 .vignetteArome .vignette-titre {
@@ -86,19 +92,38 @@ html body {
 .vignetteArome .vignette-titre h2 {
   color: #ffffff;
   text-align: center;
-  font-family: 'Syne';
+  font-family: "Syne";
   font-size: 48px;
   font-weight: 800;
 }
 
-@media (max-width: 435px){
-    .vignetteArome .vignette-titre {
-        width: 275px;
-        height: 183px;
-    }
+@media (max-width: 1024px) {
+  #plantyHeader {
+    flex-direction: column;
+    height: 200px;
+  }
 
-    .vignetteArome .vignette-titre h2{
-        font-size: 30px;
-    }
+  #logoPlanty {
+  display: flex;
+  width: 402px;
+  height: 38px;
+  margin: auto;
+ } 
 
+  .menu-item {
+  width: 150px;
+  margin: 0 5px;
+  }
+
+}
+
+@media (max-width: 435px) {
+  .vignetteArome .vignette-titre {
+    width: 275px;
+    height: 183px;
+  }
+
+  .vignetteArome .vignette-titre h2 {
+    font-size: 30px;
+  }
 }

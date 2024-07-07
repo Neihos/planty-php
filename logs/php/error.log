@@ -41,3 +41,4 @@
 [07-Jul-2024 06:08:38 UTC] PHP Warning:  Undefined array key "size" in C:\Users\Neiho\Local Sites\planty-php\app\public\wp-content\plugins\elementor\includes\elements\container.php on line 1835
 [07-Jul-2024 06:09:35 UTC] PHP Warning:  Undefined array key "size" in C:\Users\Neiho\Local Sites\planty-php\app\public\wp-content\plugins\elementor\includes\elements\container.php on line 1835
 [07-Jul-2024 06:09:35 UTC] PHP Warning:  Undefined array key "size" in C:\Users\Neiho\Local Sites\planty-php\app\public\wp-content\plugins\elementor\includes\elements\container.php on line 1835
+[07-Jul-2024 13:25:13 UTC] PHP Warning:  file_get_contents(C:\Users\Neiho\Local Sites\planty-php\app\public/wp-content/plugins/ocean-extra/ocean-extra.php): Failed to open stream: No such file or directory in C:\Users\Neiho\Local Sites\planty-php\app\public\wp-includes\functions.php on line 6855

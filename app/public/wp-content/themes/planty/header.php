@@ -22,12 +22,8 @@
 
             <nav class="navBar">
                 <?php 
-                wp_nav_menu();             
-                ?>            
-
-                <div class="buttonCommander">
-				    <button type="button" onclick="location.href='/commande'">Commander</button>
-			    </div>
+                wp_nav_menu(array('theme_location' => 'topbar_menu'));             
+                ?>
             </nav>
         </div>     
     </header>   
