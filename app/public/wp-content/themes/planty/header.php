@@ -18,6 +18,7 @@
                 <a href="<?php echo home_url(); ?>">
                     <img src="<?php echo home_url(); ?>/wp-content/uploads/2024/07/Logo_Planty.svg" alt="Logo Planty">
                 </a>
+                
             </legend>
 
             <nav class="navBar">
@@ -25,5 +26,6 @@
                 wp_nav_menu(array('theme_location' => 'topbar_menu'));             
                 ?>
             </nav>
+            <button id="buttonPlanty" type="button" onclick="location.href='/commande'">Commander</button>
         </div>     
     </header>   

@@ -40,6 +40,11 @@ html body {
   text-decoration: none;
 }
 
+#menu-item-21 {
+  width: 100px;
+  text-align: start;
+}
+
 .menu-item-78 {
   width: 236px;
   height: 80px;
@@ -97,24 +102,43 @@ html body {
   font-weight: 800;
 }
 
-@media (max-width: 1024px) {
+@media (max-width: 767px) {
   #plantyHeader {
     flex-direction: column;
-    height: 200px;
+    justify-content: space-around;
+    height: 250px;
   }
 
   #logoPlanty {
-  display: flex;
-  width: 402px;
-  height: 38px;
-  margin: auto;
- } 
-
-  .menu-item {
-  width: 150px;
-  margin: 0 5px;
+    display: flex;
+    padding-top: 20px;
+    flex-direction: column;
+    width: 361px;
+    height: 34px;
+    margin: 0 auto;
   }
 
+  .menu-item {
+    width: 150px;
+    height: 20px;
+    margin: auto;
+  }
+
+  .menu-item-78 {
+    display: none;
+  }
+
+  #buttonPlanty {
+    width: 236px;
+    height: 80px;
+    font-family: "Syne";
+    color: #ffffff;
+    font-weight: 700;
+    background-color: #dc9f96;
+    border-radius: 5px;
+    margin-bottom: 20px;
+    border: none;
+  }
 }
 
 @media (max-width: 435px) {
@@ -125,5 +149,11 @@ html body {
 
   .vignetteArome .vignette-titre h2 {
     font-size: 30px;
+  }
+}
+
+@media (min-width: 768px) {
+  #buttonPlanty {
+    display: none;
   }
 }
