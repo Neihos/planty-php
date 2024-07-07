@@ -26,7 +26,7 @@
                 ?>            
 
                 <div class="buttonCommander">
-				    <button type="button">Commander</button>
+				    <button type="button" onclick="location.href='/commande'">Commander</button>
 			    </div>
             </nav>
         </div>     

@@ -1,3 +1,15 @@
+/* header */
+
+html {
+  width: 100%;
+}
+
+html body {
+  max-width: 1440px;
+  margin: 0 auto;
+  box-shadow: 0 0 15px rgba(0, 0, 0, 0.3);
+}
+
 #plantyHeader {
   display: flex;
   max-width: 1440px;
@@ -45,6 +57,8 @@
   background-color: #c02e44;
 }
 
+/* footer */
+
 .footerPerso {
   display: flex;
   max-width: 1440px;
@@ -52,4 +66,39 @@
   margin: 0 auto;
   align-items: center;
   justify-content: center;
+}
+
+/* page accueil */
+
+#canette {
+    position: absolute;
+    margin: auto;
+}
+
+.vignetteArome .vignette-titre {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 393px;
+  height: 262px;
+}
+
+.vignetteArome .vignette-titre h2 {
+  color: #ffffff;
+  text-align: center;
+  font-family: 'Syne';
+  font-size: 48px;
+  font-weight: 800;
+}
+
+@media (max-width: 435px){
+    .vignetteArome .vignette-titre {
+        width: 275px;
+        height: 183px;
+    }
+
+    .vignetteArome .vignette-titre h2{
+        font-size: 30px;
+    }
+
 }
