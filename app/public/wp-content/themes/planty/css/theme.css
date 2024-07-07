@@ -194,3 +194,53 @@ input.wpcf7-form-control.wpcf7-submit:hover {
   width: 383px;
   height: 71px;
 }
+
+/* Formulaire de commande */
+
+.nombChoix {
+  display: flex;
+  width: 100%;
+  justify-content: space-evenly;
+}
+
+.wpcf7-form-control.wpcf7-number {
+  background-color: #ffffff;
+  text-align: center;
+}
+
+.separator {
+  height: 1px;
+  width: 80%;
+  background-color: #ffffff;
+  margin: 20px auto 60px auto;
+}
+
+.formCommande {
+  display: flex;
+  justify-content: center;
+}
+
+.formCommande h2 {
+    color: #ffffff;
+    font-weight: 700;
+    font-size: 30px;
+}
+
+.formCommande label {
+    color: #ffffff;
+    font-size: 20px;
+}
+
+.inputCommande input[type="text"] {
+  background-color: #ffffff;
+  border-radius: 5px;
+  width: 383px;
+  height: 71px;
+}
+
+.separator-vertical {
+    border-left: 1px solid #ffffff;
+    display: inline-block;
+    height: 447px;
+    margin: 0px 70px 0 70px;
+  }
