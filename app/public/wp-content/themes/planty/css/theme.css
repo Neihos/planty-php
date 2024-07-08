@@ -160,6 +160,12 @@ html body {
 
 /* Formulaire de contact */
 
+.divFormContact {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
 .formContact {
   color: #000000;
   font-family: "Syne";
@@ -174,7 +180,7 @@ html body {
   height: 237px;
 }
 
-input.wpcf7-form-control.wpcf7-submit {
+#buttonContact {
   display: block;
   margin: 0 auto;
   background-color: #e0b9b4;
@@ -183,22 +189,26 @@ input.wpcf7-form-control.wpcf7-submit {
   height: 55px;
 }
 
-input.wpcf7-form-control.wpcf7-submit:hover {
+#buttonContact:hover {
   background-color: #c02e44;
 }
 
-.wpcf7-form-control.wpcf7-text,
-.wpcf7-form-control.wpcf7-email {
+#inputFormName,
+#inputFormEmail {
   background-color: #ffffff;
   border-radius: 5px;
   width: 383px;
   height: 71px;
 }
 
+.wpcf7-response-output {
+  background-color: #c02e44;
+}
+
 @media (max-width: 530px) {
   .formContact textarea,
-  .wpcf7-form-control.wpcf7-text,
-  .wpcf7-form-control.wpcf7-email {
+  #inputFormName,
+  #inputFormEmail {
     width: 100%;
   }
 }
@@ -213,7 +223,7 @@ input.wpcf7-form-control.wpcf7-submit:hover {
   margin: 0 100px;
 }
 
-.wpcf7-form-control.wpcf7-number {
+.divNombChoix .champNum {
   background-color: #ffffff;
   text-align: center;
 }
@@ -290,6 +300,10 @@ input.wpcf7-form-control.wpcf7-submit:hover {
 
 #buttonFormCommande:hover {
   background-color: #c02e44;
+}
+
+.wpcf7-response-output {
+  color: #ffffff;
 }
 
 @media (max-width: 947px) {
