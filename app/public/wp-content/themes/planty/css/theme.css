@@ -281,24 +281,16 @@ html body {
   text-align: center;
   margin: 0 auto;
 }
-
-.buttonFormCommande {
-  display: flex;
-  width: 100%;
-  justify-content: center;
-}
-
-#buttonFormCommande {
-  width: 198px;
-  height: 55px;
-  color: #ffffff;
-  font-size: 15px;
+#buttonCommande {
+    display: block;
+  margin: 0 auto;
   background-color: #e0b9b4;
   border-radius: 5px;
-  margin: 20px;
+  width: 198px;
+  height: 55px;
 }
 
-#buttonFormCommande:hover {
+#buttonCommande:hover {
   background-color: #c02e44;
 }
 
