@@ -2,7 +2,7 @@
 # This file is distributed under the same license as the Plugins - Elementor Website Builder &#8211; More than Just a Page Builder - Stable (latest release) package.
 msgid ""
 msgstr ""
-"PO-Revision-Date: 2024-07-07 17:39:30+0000\n"
+"PO-Revision-Date: 2024-07-07 23:30:16+0000\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
@@ -83,6 +83,14 @@ msgstr "Rechercher les pages de liens"
 #: modules/conversion-center/module.php:230
 msgid "View Links Page"
 msgstr "Voir la page des liens"
+
+#: modules/conversion-center/classes/render/contact-buttons-render-base.php:101
+msgid "Close Contact Buttons"
+msgstr "Fermer les boutons de contact"
+
+#: modules/conversion-center/classes/render/contact-buttons-render-base.php:56
+msgid "Open Contact Buttons"
+msgstr "Ouvrir les boutons de contact"
 
 #: modules/conversion-center/classes/providers/social-network-provider.php:231
 msgid "Skype"
@@ -218,6 +226,10 @@ msgstr "Biographie"
 #: modules/conversion-center/base/widget-link-in-bio-base.php:806
 msgid "Apply Full Screen Height on"
 msgstr "Appliquer la hauteur plein écran sur"
+
+#: modules/conversion-center/base/widget-link-in-bio-base.php:783
+msgid "Full Screen Height"
+msgstr "Hauteur plein écran"
 
 #: modules/conversion-center/base/widget-link-in-bio-base.php:736
 msgid "Layout Width"
