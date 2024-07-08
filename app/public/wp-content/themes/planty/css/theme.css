@@ -282,9 +282,12 @@ html body {
   margin: 0 auto;
 }
 #buttonCommande {
-    display: block;
+  display: block;
   margin: 0 auto;
   background-color: #e0b9b4;
+  font-family: "Syne";
+  text-transform: capitalize;
+  font-size: 15px;
   border-radius: 5px;
   width: 198px;
   height: 55px;
