@@ -25,7 +25,8 @@
                 <?php 
                 wp_nav_menu(array('theme_location' => 'topbar_menu'));             
                 ?>
+                <button id="buttonPlanty" type="button" onclick="location.href='/commande'">Commander</button>
             </nav>
-            <button id="buttonPlanty" type="button" onclick="location.href='/commande'">Commander</button>
+            
         </div>     
     </header>   
