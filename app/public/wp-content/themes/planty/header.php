@@ -22,9 +22,11 @@
             </legend>
 
             <nav class="navBar">
-                <?php 
-                wp_nav_menu(array('theme_location' => 'topbar_menu'));             
-                ?>
+                <div id="divNavBar">
+                    <?php 
+                        wp_nav_menu(array('theme_location' => 'topbar_menu'));             
+                    ?>
+                </div>
                 <button id="buttonPlanty" type="button" onclick="location.href='/commande'">Commander</button>
             </nav>
             
