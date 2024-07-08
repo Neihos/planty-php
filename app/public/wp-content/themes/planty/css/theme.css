@@ -113,8 +113,8 @@ html body {
     display: flex;
     padding-top: 20px;
     flex-direction: column;
-    width: 361px;
-    height: 34px;
+    width: 325px;
+    height: 31px;
     margin: 0 auto;
   }
 
@@ -197,10 +197,12 @@ input.wpcf7-form-control.wpcf7-submit:hover {
 
 /* Formulaire de commande */
 
-.nombChoix {
+.choixGout {
   display: flex;
-  width: 100%;
-  justify-content: space-evenly;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  gap: 20px;
+  margin: 0 100px;
 }
 
 .wpcf7-form-control.wpcf7-number {
@@ -218,6 +220,7 @@ input.wpcf7-form-control.wpcf7-submit:hover {
 .formCommande {
   display: flex;
   justify-content: center;
+  flex-wrap: wrap;
 }
 
 .formCommande h2 {
@@ -243,4 +246,62 @@ input.wpcf7-form-control.wpcf7-submit:hover {
   display: inline-block;
   height: 447px;
   margin: 0px 70px 0 70px;
+}
+
+.divNombChoix {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: auto;
+  margin: 0;
+  text-align: center;
+}
+
+.champNum {
+  width: 60px;
+  text-align: center;
+  margin: 0 auto;
+}
+
+.buttonFormCommande {
+  display: flex;
+  width: 100%;
+  justify-content: center;
+}
+
+#buttonFormCommande {
+  width: 198px;
+  height: 55px;
+  color: #ffffff;
+  font-size: 15px;
+  background-color: #e0b9b4;
+  border-radius: 5px;
+  margin: 20px;
+}
+
+#buttonFormCommande:hover {
+  background-color: #c02e44;
+}
+
+@media (max-width: 947px) {
+  .separator-vertical {
+    display: none;
+  }
+
+  .livraison,
+  .infoCommande {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+  }
+
+  .inputCommande input[type="text"] {
+    width: 311px;
+    height: 58px;
+  }
+
+  .choixGout {
+    margin: 0;
+  }
 }
