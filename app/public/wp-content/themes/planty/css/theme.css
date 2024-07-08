@@ -195,6 +195,14 @@ input.wpcf7-form-control.wpcf7-submit:hover {
   height: 71px;
 }
 
+@media (max-width: 530px) {
+  .formContact textarea,
+  .wpcf7-form-control.wpcf7-text,
+  .wpcf7-form-control.wpcf7-email {
+    width: 100%;
+  }
+}
+
 /* Formulaire de commande */
 
 .choixGout {
