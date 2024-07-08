@@ -1,0 +1,1 @@
+2024/07/08 16:26:59 [error] 20356#23880: *48550 WSARecv() failed (10054: FormatMessage() error:(15100)) while reading response header from upstream, client: 127.0.0.1, server: , request: "GET /favicon.ico HTTP/1.0", upstream: "fastcgi://127.0.0.1:10014", host: "planty-php.local", referrer: "http://planty-php.local/commande/"

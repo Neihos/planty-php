@@ -1,7 +1,9 @@
-/* header */
+/***************************/
+/**-----Réglage global-----*/
+/***************************/
 
-html {
-  width: 100%;
+html body a:focus {
+  outline: none !important;
 }
 
 html body {
@@ -10,6 +12,11 @@ html body {
   box-shadow: 0 0 15px rgba(0, 0, 0, 0.3);
 }
 
+/***************************/
+/**---------HEADER--------**/
+/***************************/
+
+/*div header*/
 #plantyHeader {
   display: flex;
   max-width: 1440px;
@@ -20,6 +27,7 @@ html body {
   background-color: #ffffff;
 }
 
+/*div du logo du site*/
 #logoPlanty {
   display: flex;
   width: 201px;
@@ -27,12 +35,7 @@ html body {
   margin-left: 37px;
 }
 
-.menu-item {
-  width: 236px;
-  height: 80px;
-  text-align: center;
-  align-content: center;
-}
+/*Les éléments de la barre de navigation*/
 
 .navBar {
   display: flex;
@@ -46,6 +49,13 @@ html body {
   text-decoration: none;
 }
 
+.menu-item {
+  width: 236px;
+  height: 80px;
+  text-align: center;
+  align-content: center;
+}
+
 #menu-item-21 {
   width: 100px;
   text-align: start;
@@ -54,6 +64,8 @@ html body {
 .menu-item-78 {
   display: none;
 }
+
+/*button Commander*/
 
 #buttonPlanty {
   width: 236px;
@@ -69,7 +81,9 @@ html body {
   background-color: #c02e44;
 }
 
-/* footer */
+/***************************/
+/**--------footer---------**/
+/***************************/
 
 .footerPerso {
   display: flex;
@@ -80,13 +94,17 @@ html body {
   justify-content: center;
 }
 
-/* page accueil */
+/***************************/
+/**-----page accueil------**/
+/***************************/
 
+/*positionne la canette au centre des images des feuilles*/
 #canette {
   position: absolute;
   margin: auto;
 }
 
+/*mise en page des vignettes des goûts*/
 .vignetteArome .vignette-titre {
   display: flex;
   align-items: center;
@@ -103,7 +121,165 @@ html body {
   font-weight: 800;
 }
 
+/**************************/
+/**-Page Nous rencontrer-**/
+/**************************/
+
+/*mise en forme du formulaire verticalement*/
+.divFormContact {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+/*Réglage de la typographie des label*/
+.formContact {
+  color: #000000;
+  font-family: "Syne";
+  font-size: 20px;
+  font-weight: 400;
+}
+
+/*Réglages des inputs du formulaire*/
+#inputFormName,
+#inputFormEmail {
+  background-color: #ffffff;
+  border-radius: 5px;
+  width: 383px;
+  height: 71px;
+}
+
+.formContact textarea {
+  background-color: white;
+  border-radius: 7px;
+  width: 383px;
+  height: 237px;
+}
+
+/*paramètres du bouton "Envoyer"*/
+#buttonContact {
+  display: block;
+  margin: 0 auto;
+  background-color: #e0b9b4;
+  border-radius: 5px;
+  width: 198px;
+  height: 55px;
+}
+
+#buttonContact:hover {
+  background-color: #c02e44;
+}
+
+/*Fond du message après soumission du formulaire*/
+#nousContacter .wpcf7-response-output {
+  background-color: #c02e44;
+}
+
+/***************************/
+/**--Page de précommande--**/
+/***************************/
+
+/*div du compteur des choix par goût*/
+.choixGout {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  gap: 20px;
+  margin: 0 100px;
+}
+
+/*Réglages pour chaque div des images + compteurs*/
+.divNombChoix {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: auto;
+  margin: 0;
+  text-align: center;
+}
+
+/*Réglages du champ des compteurs */
+.divNombChoix .champNum {
+  background-color: #ffffff;
+  text-align: center;
+  margin: 0 auto;
+  width: 60px;
+}
+
+/*Réglage du séparateur horizontal*/
+.separator {
+  height: 1px;
+  width: 80%;
+  background-color: #ffffff;
+  margin: 20px auto 60px auto;
+}
+
+/*div générale des informations et adresse livraison du client*/
+.formCommande {
+  display: flex;
+  margin-bottom: 20px;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+/*réglages des titres h2 du formulaire*/
+.formCommande h2 {
+  color: #ffffff;
+  font-weight: 700;
+  font-size: 30px;
+}
+
+/*Réglages des typographies des labels du formulaire*/
+.formCommande label {
+  color: #ffffff;
+  font-size: 20px;
+}
+
+/*Réglages des inputs du formulaire*/
+.inputCommande input[type="text"] {
+  background-color: #ffffff;
+  border-radius: 5px;
+  width: 383px;
+  height: 71px;
+  margin-top: 8px;
+}
+
+/*Réglage du séparateur vertical*/
+.separator-vertical {
+  border-left: 1px solid #ffffff;
+  display: inline-block;
+  height: 447px;
+  margin: 0px 70px 0 70px;
+}
+
+/*Réglage du bouton de commande*/
+#buttonCommande {
+  display: block;
+  margin: 0 auto;
+  background-color: #e0b9b4;
+  font-family: "Syne";
+  text-transform: capitalize;
+  font-size: 15px;
+  border-radius: 5px;
+  width: 198px;
+  height: 55px;
+}
+
+#buttonCommande:hover {
+  background-color: #c02e44;
+}
+
+/*Réglage du message de soumission du formulaire*/
+#buttonFormCommande .wpcf7-response-output {
+  color: #ffffff;
+}
+
+/***************************/
+/**---Les Media queries---**/
+/***************************/
+
 @media (max-width: 830px) {
+  /*Réglage en verticale du header*/
   #plantyHeader {
     flex-direction: column;
     justify-content: space-around;
@@ -148,6 +324,7 @@ html body {
   }
 }
 
+/*réglages des vignettes de la page Accueil*/
 @media (max-width: 435px) {
   .vignetteArome .vignette-titre {
     width: 275px;
@@ -159,53 +336,7 @@ html body {
   }
 }
 
-/* Formulaire de contact */
-
-.divFormContact {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-}
-
-.formContact {
-  color: #000000;
-  font-family: "Syne";
-  font-size: 20px;
-  font-weight: 400;
-}
-
-.formContact textarea {
-  background-color: white;
-  border-radius: 7px;
-  width: 383px;
-  height: 237px;
-}
-
-#buttonContact {
-  display: block;
-  margin: 0 auto;
-  background-color: #e0b9b4;
-  border-radius: 5px;
-  width: 198px;
-  height: 55px;
-}
-
-#buttonContact:hover {
-  background-color: #c02e44;
-}
-
-#inputFormName,
-#inputFormEmail {
-  background-color: #ffffff;
-  border-radius: 5px;
-  width: 383px;
-  height: 71px;
-}
-
-.wpcf7-response-output {
-  background-color: #c02e44;
-}
-
+/*Réglages des inputs du formulaire Nous rencontrer*/
 @media (max-width: 530px) {
   .formContact textarea,
   #inputFormName,
@@ -214,100 +345,19 @@ html body {
   }
 }
 
-/* Formulaire de commande */
-
-.choixGout {
-  display: flex;
-  justify-content: space-around;
-  flex-wrap: wrap;
-  gap: 20px;
-  margin: 0 100px;
-}
-
-.divNombChoix .champNum {
-  background-color: #ffffff;
-  text-align: center;
-}
-
-.separator {
-  height: 1px;
-  width: 80%;
-  background-color: #ffffff;
-  margin: 20px auto 60px auto;
-}
-
-.formCommande {
-  display: flex;
-  margin-bottom: 20px;
-  justify-content: center;
-  flex-wrap: wrap;
-}
-
-.formCommande h2 {
-  color: #ffffff;
-  font-weight: 700;
-  font-size: 30px;
-}
-
-.formCommande label {
-  color: #ffffff;
-  font-size: 20px;
-}
-
-.inputCommande input[type="text"] {
-  background-color: #ffffff;
-  border-radius: 5px;
-  width: 383px;
-  height: 71px;
-  margin-top: 8px;
-}
-
-.separator-vertical {
-  border-left: 1px solid #ffffff;
-  display: inline-block;
-  height: 447px;
-  margin: 0px 70px 0 70px;
-}
-
-.divNombChoix {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  width: auto;
-  margin: 0;
-  text-align: center;
-}
-
-.champNum {
-  width: 60px;
-  text-align: center;
-  margin: 0 auto;
-}
-#buttonCommande {
-  display: block;
-  margin: 0 auto;
-  background-color: #e0b9b4;
-  font-family: "Syne";
-  text-transform: capitalize;
-  font-size: 15px;
-  border-radius: 5px;
-  width: 198px;
-  height: 55px;
-}
-
-#buttonCommande:hover {
-  background-color: #c02e44;
-}
-
-.wpcf7-response-output {
-  color: #ffffff;
-}
-
+/*Réglages du formulaire de la page de précommande*/
 @media (max-width: 947px) {
+  /*div globale du formulaire*/
+  .choixGout {
+    margin: 0;
+  }
+
+  /*retirer le séparateur vertical*/
   .separator-vertical {
     display: none;
   }
 
+  /*Réglages en verticale des champs du formulaire*/
   .livraison,
   .infoCommande {
     display: flex;
@@ -316,12 +366,9 @@ html body {
     width: 100%;
   }
 
+  /*Réglages de la taille des inputs du formulaire*/
   .inputCommande input[type="text"] {
     width: 280px;
     height: 52px;
-  }
-
-  .choixGout {
-    margin: 0;
   }
 }

@@ -12,8 +12,8 @@
 
     <?php wp_body_open(); ?>
 
-    <header>
-        <div id="plantyHeader">
+        <header id="plantyHeader">
+        
             <legend id="logoPlanty">
                 <a href="<?php echo home_url(); ?>">
                     <img src="<?php echo home_url(); ?>/wp-content/uploads/2024/07/Logo_Planty.svg" alt="Logo Planty">
@@ -30,5 +30,5 @@
                 <button id="buttonPlanty" type="button" onclick="location.href='/commande'">Commander</button>
             </nav>
             
-        </div>     
-    </header>   
+            
+        </header>   
