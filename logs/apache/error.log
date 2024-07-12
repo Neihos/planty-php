@@ -1,0 +1,10 @@
+[Thu Jul 11 12:25:38.022487 2024] [mpm_winnt:notice] [pid 2328:tid 876] AH00455: Apache/2.4.43 (Win32) mod_fcgid/2.3.9a configured -- resuming normal operations
+[Thu Jul 11 12:25:38.023488 2024] [mpm_winnt:notice] [pid 2328:tid 876] AH00456: Server built: Apr 21 2020 13:46:54
+[Thu Jul 11 12:25:38.023488 2024] [core:notice] [pid 2328:tid 876] AH00094: Command line: 'C:\\Users\\Neiho\\AppData\\Roaming\\Local\\lightning-services\\apache-2.4.43+8\\bin\\win32\\bin\\httpd.exe -d C:/Users/Neiho/AppData/Roaming/Local/lightning-services/apache-2.4.43+8/bin/win32 -D FOREGROUND -f C:\\Users\\Neiho\\AppData\\Roaming\\Local\\run\\4m9eJJqc-\\conf\\apache\\apache2.conf'
+[Thu Jul 11 12:25:38.028489 2024] [mpm_winnt:notice] [pid 2328:tid 876] AH00418: Parent: Created child process 12500
+[Thu Jul 11 12:25:38.718565 2024] [mpm_winnt:notice] [pid 12500:tid 832] AH00354: Child: Starting 64 worker threads.
+[Fri Jul 12 14:58:43.132817 2024] [core:warn] [pid 20052:tid 760] AH00098: pid file C:/Users/Neiho/AppData/Roaming/Local/run/4m9eJJqc-/apache/logs/httpd.pid overwritten -- Unclean shutdown of previous Apache run?
+[Fri Jul 12 14:58:43.136818 2024] [mpm_winnt:notice] [pid 20052:tid 760] AH00455: Apache/2.4.43 (Win32) mod_fcgid/2.3.9a configured -- resuming normal operations
+[Fri Jul 12 14:58:43.136818 2024] [mpm_winnt:notice] [pid 20052:tid 760] AH00456: Server built: Apr 21 2020 13:46:54
+[Fri Jul 12 14:58:43.136818 2024] [core:notice] [pid 20052:tid 760] AH00094: Command line: 'C:\\Users\\Neiho\\AppData\\Roaming\\Local\\lightning-services\\apache-2.4.43+8\\bin\\win32\\bin\\httpd.exe -d C:/Users/Neiho/AppData/Roaming/Local/lightning-services/apache-2.4.43+8/bin/win32 -D FOREGROUND -f C:\\Users\\Neiho\\AppData\\Roaming\\Local\\run\\4m9eJJqc-\\conf\\apache\\apache2.conf'
+[Fri Jul 12 14:58:43.142818 2024] [mpm_winnt:notice] [pid 20052:tid 760] AH00418: Parent: Created child process 21848

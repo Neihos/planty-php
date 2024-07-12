@@ -172,7 +172,7 @@ html body {
 
 /*Fond du message après soumission du formulaire*/
 #nousContacter .wpcf7-response-output {
-  background-color: #c02e44;
+  background-color: #ffffff;
 }
 
 /***************************/
@@ -270,7 +270,7 @@ html body {
 }
 
 /*Réglage du message de soumission du formulaire*/
-#buttonFormCommande .wpcf7-response-output {
+#FormCommandeGlobal .wpcf7-response-output {
   color: #ffffff;
 }
 
