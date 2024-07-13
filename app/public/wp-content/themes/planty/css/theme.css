@@ -104,23 +104,6 @@ html body {
   margin: auto;
 }
 
-/*mise en page des vignettes des goûts*/
-.vignetteArome .vignette-titre {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  width: 393px;
-  height: 262px;
-}
-
-.vignetteArome .vignette-titre h2 {
-  color: #ffffff;
-  text-align: center;
-  font-family: "Syne";
-  font-size: 48px;
-  font-weight: 800;
-}
-
 /**************************/
 /**-Page Nous rencontrer-**/
 /**************************/
@@ -321,18 +304,6 @@ html body {
     border-radius: 5px;
     margin: 20px;
     border: none;
-  }
-}
-
-/*réglages des vignettes de la page Accueil*/
-@media (max-width: 435px) {
-  .vignetteArome .vignette-titre {
-    width: 275px;
-    height: 183px;
-  }
-
-  .vignetteArome .vignette-titre h2 {
-    font-size: 30px;
   }
 }
 
