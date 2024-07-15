@@ -2,7 +2,7 @@
 # This file is distributed under the same license as the Plugins - Elementor Website Builder &#8211; More than Just a Page Builder - Stable (latest release) package.
 msgid ""
 msgstr ""
-"PO-Revision-Date: 2024-07-07 23:30:16+0000\n"
+"PO-Revision-Date: 2024-07-15 07:45:25+0000\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
@@ -59,6 +59,10 @@ msgstr "Réglages de cache"
 msgid "Element Caching"
 msgstr "Mise en cache d’éléments"
 
+#: modules/conversion-center/widgets/link-in-bio.php:28
+msgid "Link In Bio"
+msgstr "Lien en bio"
+
 #: modules/conversion-center/widgets/contact-buttons.php:25
 msgid "Contact Buttons"
 msgstr "Boutons de contact"
@@ -83,6 +87,18 @@ msgstr "Rechercher les pages de liens"
 #: modules/conversion-center/module.php:230
 msgid "View Links Page"
 msgstr "Voir la page des liens"
+
+#: modules/conversion-center/documents/links-page.php:47
+#: modules/conversion-center/module.php:223
+#: modules/conversion-center/module.php:235 assets/js/editor.js:47679
+msgid "Links Pages"
+msgstr "Pages de liens"
+
+#: modules/conversion-center/documents/links-page.php:44
+#: modules/conversion-center/module.php:176
+#: modules/conversion-center/module.php:224
+msgid "Links Page"
+msgstr "Page de liens"
 
 #: modules/conversion-center/classes/render/contact-buttons-render-base.php:101
 msgid "Close Contact Buttons"
@@ -394,6 +410,12 @@ msgstr "Bouton de discussion"
 #: modules/conversion-center/admin-menu-items/links-menu-item.php:33
 msgid "Links"
 msgstr "Liens"
+
+#: modules/conversion-center/admin-menu-items/conversion-center-menu-item.php:24
+#: modules/conversion-center/admin-menu-items/conversion-center-menu-item.php:28
+#: modules/conversion-center/module.php:52
+msgid "Conversion Center"
+msgstr "Centre de conversion"
 
 #: modules/apps/admin-apps-page.php:122
 msgid "Cannot Install"
